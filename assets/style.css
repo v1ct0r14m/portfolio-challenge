@@ -1,9 +1,9 @@
 :root{
-    --main-bg-color: red;
-  }
+    --main-bg-color: #c7a1cb;
+}
 
 body {
-    background-color: var(--main-bg-color)
+    background-color: var(--main-bg-color);
 }
 
 h1 {
