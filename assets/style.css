@@ -1,12 +1,12 @@
-:root{
-    --main-bg-color: #c7a1cb;
-}
-
 body {
-    background-color: var(--main-bg-color);
+    background-color: #c7a1cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+header {
+    padding: 50px;
+    text-align: center;
+    background: #ffffff;
+    color: #c7a1cb
 }
