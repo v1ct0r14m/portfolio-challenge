@@ -29,11 +29,12 @@ nav a {
 }
 
 .nav ul {
-    list-style-type: none;
+    justify-content: center;
 }
 
 .nav ul li {
     display: flex;
+    list-style-type: none;
 }
 
 nav a:hover {
