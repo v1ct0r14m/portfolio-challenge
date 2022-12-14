@@ -60,6 +60,16 @@ img:hover {
     color: aliceblue;
 }
 
+.p2 {
+    font-size: 200px;
+}
+
+.p2 #emoji {
+    height: 200px;
+    width: auto;
+    padding-left: 2%;
+}
+
 .bowl:hover {
     background-color: aquamarine;
 }
