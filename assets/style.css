@@ -5,36 +5,36 @@ body {
 }
 
 header {
-    padding: 10%;
-    margin-right: 20px;
+    padding: 5%;
     text-align: center;
     background-color: #7971c8;
+    justify-content: center;
 }
 
 header h1 {
     display: inline-flex;
     color: aliceblue;
 }
-
-nav {
-    display: inline-block;
-    background-color: #7971c8;
+.hero {
+    justify-content: space-evenly;
+    text-align: center;
 }
-
-nav a {
+header nav a {
     color: aliceblue;
     display: flex;
     text-decoration: wavy;
     text-align: center;
-}
-
-.nav ul {
     justify-content: center;
 }
 
-.nav ul li {
+header nav ul {
+    list-style: none;
+}
+
+nav {
     display: flex;
-    list-style-type: none;
+    background-color: #7971c8;
+    justify-content: space-between;
 }
 
 nav a:hover {
@@ -53,7 +53,9 @@ img:hover {
 
 .about-me p {
     text-align: justify;
+    line-height: 3;
     color: aliceblue;
+
 }
 
 .contact-me p {
